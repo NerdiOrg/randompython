@@ -1,7 +1,5 @@
 **results**:
 
-TEST 1 START : 
-
 a == b
 
 b == c
@@ -15,9 +13,6 @@ b is not c, (140737345305024, 140737346194880)
 c is a, (140737346194880, 140737346194880)
 
 
-
-TEST 2 START : 
-
 a == b (1, 1)
 
 a is b (1, 1)
@@ -25,10 +20,6 @@ a is b (1, 1)
 id_a == id_b (93824995750368, 93824995750368)
 
 hex_a == hex_b (0x5555558af1e0, 0x5555558af1e0)
-
-
-
-TEST 3 START : 
 
 c == d (string, string)
 

@@ -1,25 +1,42 @@
 **results**:
 
-nums == numstwo
+TEST 1 START : 
 
-nums is not numstwo
+a == b
+
+b == c
+
+c == a
+
+a is not b, (140737346194880, 140737345305024)
+
+b is not c, (140737345305024, 140737346194880)
+
+c is a, (140737346194880, 140737346194880)
+
+
+
+TEST 2 START : 
 
 a == b (1, 1)
 
 a is b (1, 1)
 
-id_a == id_b (93824995750368, 93824995750368) # different across systems
+id_a == id_b (93824995750368, 93824995750368)
 
-hex_a == hex_b (0x5555558af1e0, 0x5555558af1e0) # different across systems
+hex_a == hex_b (0x5555558af1e0, 0x5555558af1e0)
+
+
+
+TEST 3 START : 
 
 c == d (string, string)
 
 c is d (string, string)
 
-id_c == id_d (140737345303920, 140737345303920) # different across systems
+id_c == id_d (140737345304112, 140737345304112)
 
-hex_c == hex_d (0x7ffff7793570, 0x7ffff7793570) # different across systems
-
+hex_c == hex_d (0x7ffff7793630, 0x7ffff7793630)
 
 
 

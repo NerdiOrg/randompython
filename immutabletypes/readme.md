@@ -2,6 +2,8 @@
 
 Values will be evaluated to show differences between == and 'is' / 'is not'.**
 
+*Note: object ID / hex values shown below will be different based on system
+
 
 **results**:
 

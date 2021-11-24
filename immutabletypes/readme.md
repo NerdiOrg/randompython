@@ -1,3 +1,8 @@
+**Run the tests.py file using Python**
+
+Values will be evaluated to show differences between == and 'is' / 'is not'.**
+
+
 **results**:
 
 a == b

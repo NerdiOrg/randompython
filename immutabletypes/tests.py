@@ -1,15 +1,29 @@
-nums = [1,2,3]
-numstwo = [1,2,3]
-if nums == numstwo:
-    # True, these are equal ==
-    print("nums == numstwo")
-    
-if nums is numstwo: # False, nums is not numstwo
-    print("nums is numstwo")
-else:
-    print("nums is not numstwo")
-# This is because lists are "Mutable" and the "is / is not" in Python will not consider the two the same because their lists are stored as different objects in memory
+print("\n\nTEST 1 START : \n")
+a = [1, 2, 3]
+b = [1, 2, 3]
+c = a
+if a == b:
+    print("a == b")
+    # [1,2,3] == [1,2,3]
+if b == c:
+    print("b == c")
+    # [1,2,3] = [1,2,3]
+if c == a:
+    print("c == a")
+    # [1,2,3] = [1,2,3]
+if a is not b:
+    print("a is not b, (" + str(id(a)) + ", "+ str(id(b)) + ")")
+    # id(a) != id(b)
+if b is not c:
+    print("b is not c, (" + str(id(b)) + ", "+ str(id(c)) + ")")
+    # id(b) != id(c)
+if c is a:
+    print("c is a, (" + str(id(c)) + ", "+ str(id(a)) + ")")
+    # id(c) == id(a)
+
+   
 # On the other hand, strings and integers are two types of immutable objects:
+print("\n\nTEST 2 START : \n")
 a = 1
 b = 1
 if a == b:
@@ -29,6 +43,8 @@ if hex_a == hex_b:
     # True, same id from memory in hexadecimal format
     print("hex_a == hex_b (" + hex_a + ", " + hex_b + ")")
 
+
+print("\n\nTEST 3 START : \n")
 c = "string"
 d = "string"
 if c == d:
@@ -47,3 +63,5 @@ hex_d = hex(id_d)
 if hex_c == hex_d:
     # True, same id from memory in hexadecimal format
     print("hex_c == hex_d (" + hex_c + ", " + hex_d + ")")
+    
+  

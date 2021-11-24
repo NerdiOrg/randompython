@@ -20,3 +20,7 @@ id_c == id_d (140737345303920, 140737345303920) # different across systems
 
 hex_c == hex_d (0x7ffff7793570, 0x7ffff7793570) # different across systems
 
+
+
+**learn more about Python objects**:
+https://medium.com/@bdov_/https-medium-com-bdov-python-this-is-an-object-that-is-an-object-everything-is-an-object-fff50429cd4b
